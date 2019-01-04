@@ -1,0 +1,615 @@
+@charset "utf-8";
+/* CSS Document */
+#body{background-color:#09F;
+font-family: 'Hind', sans-serif;}
+.naveedit{z-index:999;
+display:none;}
+
+
+
+.banner2{display:none;}
+
+
+.headder{height:153px;
+background:url(../img/web%20banner%20new-01.jpg) no-repeat;
+background-size:100%;
+border-radius: 0px 0px 17px 17px;
+-moz-border-radius: 0px 0px 17px 17px;
+-webkit-border-radius: 0px 0px 17px 17px;
+border: 0px solid #000000;
+padding:0px;
+overflow:hidden;
+    margin-left: 300px;}
+
+.logo{height:100%;
+padding-top:20px;
+}
+
+
+.bodycont{height:1100px;
+background-color:#00bfe1;
+margin-top:25px;
+padding:0px;
+border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+padding:0px;
+overflow:hidden;
+    margin-left: 300px;}
+
+
+.box {
+  margin-top: 40px;
+  height: 85px;
+  border-bottom: 5px solid #fff;
+  background-color: #0dc2e3;
+  background-image: -webkit-linear-gradient(180deg, transparent 55%, #00bfe1 45%);
+  background-image: -o-linear-gradient(180deg, transparent 50%, #00bfe1 50%);
+  background-image: -ms-linear-gradient(180deg, transparent 50%, #00bfe1 50%);
+  background-image: linear-gradient(90deg, transparent 50%, #00bfe1 50%);
+  background-size: 30px 30px;
+ 
+   
+}
+.menu {
+     width: 1263px;
+  margin: 0 auto;
+  -webkit-perspective: 50px;
+  -moz-perspective: 50px;
+  -ms-perspective: 50px;
+  perspective: 50px;
+ 
+  
+}
+.menu > li {
+  display: inline-block;
+  padding-top: 48px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+ ;
+}
+.menu > li > a {
+  position: relative;
+  display: block;
+  line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 20px;
+  
+}
+.menu > li:first-child > a:before {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  content: '';
+  width: 1px;
+  height: 1px;
+  border-width: 15px 30px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #4bb100;
+}
+.menu > li:first-child > a:after {
+  font-family: 'iconminia';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 22px;
+  content: "\21";
+}
+.menu > li:first-child a,
+  .menu > li:first-child:hover > a,
+  .menu > li:first-child:hover a:hover {
+  color: #fff;
+  top: 2px;
+  height: 36px;
+  margin-right: 10px;
+  text-shadow: 0 1px 0 #3c8f00;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 1px 0 #a6d980 inset;  
+  background-color: #4bb100;
+}
+.menu > li:hover > a {
+  color: #1a89c8;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+} 
+.menu ul {
+  position: absolute;
+  text-align: left;
+  line-height: 40px;
+  font-size: 14px;
+  width: 200px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-transform-origin: 0px 0px;
+  -moz-transform-origin: 0px 0px;
+  transform-origin: 0px 0px;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.menu ul a {
+  display: block;
+  padding: 0 15px 0 10px;
+  color: #1a89c8;
+}
+.menu > li:hover ul {
+  display: block;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  z-index: 999;
+}
+.menu ul a:hover {
+  color: #fff;
+  text-shadow: 0 1px 0 #1c71a1;
+  text-decoration: none;
+  background-color: #218bc7;
+} 
+@font-face {
+  font-family: 'iconminia';
+  src:url('fonts/iconminia.eot');
+  src:url('fonts/iconminia.eot?#iefix') format('embedded-opentype'),
+   url('fonts/iconminia.svg#iconminia') format('svg'),
+   url('fonts/iconminia.woff') format('woff'),
+   url('fonts/iconminia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.tabss{height:935px;
+background-color:#069;
+margin-top:40px;
+float:left;
+border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+padding:0px;}
+
+
+.tabss1{height:900px;
+
+float:left;
+margin-top:40px;
+padding-left:30px;
+	  padding-right:30px;
+}
+.image1{height:350px;
+      
+	  overflow:hidden;
+	  padding:0px;
+	  border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+	  }
+
+.welcome{height:300px;
+background-color:#FFF;
+float:left;
+margin-top:15px;
+border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+padding:0px;
+overflow:hidden;
+-webkit-box-shadow: 0px 0px 0px 0px rgba(212,205,212,1);
+-moz-box-shadow: 0px 0px 0px 0px rgba(212,205,212,1);
+box-shadow: 0px 0px 0px 0px rgba(212,205,212,1);}
+
+.event{height:300px;
+background-color:#fff;
+float:left;
+margin-top:15px;
+border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+padding:0px;
+overflow:hidden;
+
+margin-left: 83px;
+}
+
+
+.welcomedetils{height:30px;
+background-color:#09f;
+color:#FFF;
+padding-top:5px
+}
+
+
+#change{padding-left:10px;}
+
+
+
+.hospital{height:200px;
+float:left;       
+}
+
+.hospita2{height:200px;
+       
+		border-radius: 17px 17px 17px 17px;
+-moz-border-radius: 17px 17px 17px 17px;
+-webkit-border-radius: 17px 17px 17px 17px;
+border: 0px solid #000000;
+
+overflow:hidden;
+
+float:left;
+margin-top:20px;
+margin-right:0px;
+padding:0px;}
+
+.footer{height:70px;
+margin-top:30px;
+color:#FFF;}
+
+.demo{height:40px;
+font-size:15px;
+color:#FFF;
+padding-top:17px;
+}
+
+
+
+
+@media only screen and (max-width: 1917px) {
+	
+	
+	
+	.event {
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    margin-top: 15px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+
+    margin-left: 30px;
+}
+	
+	
+	
+	}
+	
+
+
+@media only screen and (max-width: 1400px) {
+.bodycont {
+    height: 1150px;
+    background-color: #00bfe1;
+    margin-top: 25px;
+    padding: 0px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 117px;
+    margin-right: 50px;
+    width: 82%;
+}
+.headder {
+    height: 153px;
+    background: url(../img/web%20banner%20new-01.jpg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px 0px 17px 17px;
+    -moz-border-radius: 0px 0px 17px 17px;
+    -webkit-border-radius: 0px 0px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 117px;
+    margin-right: 50px;
+    width: 82%;
+}
+.hospita2 {
+    height: 219px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    overflow: hidden;
+    float: left;
+    margin-top: 73px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 114%;
+}
+
+.tabss {
+    height: 984px;
+    background-color: #069;
+    margin-top: 40px;
+    float: left;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+}
+}
+		
+
+@media only screen and (max-width: 1199px) {
+		
+.bodycont {
+    height: 1150px;
+    background-color: #00bfe1;
+    margin-top: 25px;
+    padding: 0px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+   margin-left: 80px;
+    margin-right: 80px;
+}	
+	
+.headder {
+   height:153px;
+background:url(../img/web%20banner%20new-01.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 17px 17px;
+    -moz-border-radius: 0px 0px 17px 17px;
+    -webkit-border-radius: 0px 0px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+}
+
+
+	
+@media only screen and (max-width: 998px) {
+		
+.bodycont {
+    height: 2228px;
+    background-color: #00bfe1;
+    margin-top: 25px;
+    padding: 0px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+   margin-left: 40px;
+    margin-right: 40px;
+}	
+	
+.headder {
+height:153px;
+background:url(../img/web%20banner%20new-01.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 17px 17px;
+    -moz-border-radius: 0px 0px 17px 17px;
+    -webkit-border-radius: 0px 0px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left:40px;
+    margin-right: 40px;
+}
+    
+    
+    
+    .hospita2 {
+    height: 196px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    overflow: hidden;
+    float: left;
+    margin-top: 73px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 115%;
+}
+}
+		
+	
+	
+
+@media only screen and (max-width: 767px) {
+		
+.bodycont {
+    height: auto;
+    background-color: #00bfe1;
+    margin-top: 25px;
+    padding: 0px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.headder {
+    height: 105px;
+    background:url(../image/Untitled-2.png) no-repeat;
+    background-size: 100% 100%;
+   
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right:0px;
+    width: 100%;
+	background-color:#FFF;
+}
+
+
+.tabss1 {
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+	    margin-bottom: 90px;
+}
+.event {
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    margin-top: 15px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+   
+  width: 120%;
+    margin-left: -27px;
+}
+
+.hospital {
+    height: 200px;
+    float: left;
+    margin-bottom: 110px;
+}
+
+
+.menu {
+    width: 220px;
+    margin: 0 0;
+    -webkit-perspective: 50px;
+    -moz-perspective: 50px;
+    -ms-perspective: 50px;
+    perspective: 50px;
+}
+.tabss {
+	display:none;
+    height: 935px;
+    background-color: #069;
+    margin-top: 40px;
+    float: left;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+.image1 {
+	display:none;
+    height: 154px;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    width: 120%;
+    margin-left: -27px;
+}
+
+#myway {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 204px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.welcome {
+    height: 300px;
+    background-color: #FFF;
+    float: left;
+    margin-top: -59px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    padding: 0px;
+    overflow: hidden;
+    width: 120%;
+    margin-left: -27px;
+}
+
+.naveedit{z-index:999;
+display:block;
+background-color:#d6cec100;
+border:none;}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    background:#1553a499;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #01c5148c;
+}
+.maname{display:none;}
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #00b915b3;
+}
+
+
+.banner2{display:block;
+height:400px;
+background:url(../image/happy-boy-at-the-doctor-PDLANCL.jpg) no-repeat;
+background-size:150% 100%;
+overflow:hidden;
+background-position: center;}
+
+.hospita2 {
+    height: 272px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+    overflow: hidden;
+    float: left;
+    margin-top: 73px;
+    margin-right: 0px;
+    width: 135%;
+    margin-left: -40px;
+}
+
+
+}	
+	
+	
